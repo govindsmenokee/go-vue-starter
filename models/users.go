@@ -6,7 +6,7 @@ import (
 	_ "github.com/jinzhu/gorm/dialects/postgres"
 	// import sqlite3 driver
 	_ "github.com/jinzhu/gorm/dialects/sqlite"
-	uuid "github.com/satori/go.uuid"
+	uuid "github.com/google/uuid"
 	"golang.org/x/crypto/bcrypt"
 )
 
